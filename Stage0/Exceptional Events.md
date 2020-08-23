@@ -22,7 +22,7 @@
 - When: Click quit button.
 - Then: Reset the scores and exit the game.
 
-### Scenario: unauthorized user
+### Scenario: reset the game
 - Given: Game is running. 
 - When: Click reset button.
 - Then: Set the scores of both the player to zero and restart the game.
