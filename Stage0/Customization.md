@@ -1,5 +1,5 @@
 # Customization
-  
+  Provide all the customized styling features to player.
 
 ## Feature
 
