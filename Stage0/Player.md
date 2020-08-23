@@ -1,5 +1,6 @@
 # Player
   Contains functionalities or activities which a player can perform.
+  This will also inherit the style module.
   
 ## Feature
 
@@ -7,12 +8,16 @@
 - name
 - score
 - is_my_turn
+- am_i_a_winner
+- if_missed
 
 ### Methods
-- SignIn()
-- SignUp()
-- VarifyUser()
-- resetPassword()
+
+#### Abstract Methods
+- missed()
+- notMissed()
+- moveUp()
+- mobeDown()
 
 ## Acceptance Criteria
 
