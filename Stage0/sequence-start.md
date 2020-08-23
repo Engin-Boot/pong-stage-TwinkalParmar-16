@@ -6,10 +6,10 @@ Authentication Module
 
 ## Movement Initiation
 
-Toggle Module
-Player Module
-Customization Module
-Exceptional Module
+- Toggle Module
+- Player Module
+- Customization Module
+- Exceptional Module
 
 ## One score
 
