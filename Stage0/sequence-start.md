@@ -120,7 +120,7 @@ Toggle Module.
       <br/> player2.is_my_turn=true
    }
    - changeTheDirection(){
-   <br/ >change the direction to right side.
+   <br/> change the direction to right side.
    }
 
 ### For player2
@@ -132,7 +132,7 @@ Toggle Module.
       <br/> player1.is_my_turn=true
    }
    - changeTheDirection(){
-   <br/ >change the direction to left side.
+   <br/> change the direction to left side.
    }
 
 # -
