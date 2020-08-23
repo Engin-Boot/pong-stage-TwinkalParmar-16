@@ -17,8 +17,8 @@ Toggle Module.
 
 # Interations
 
-# -
-1. Start 
+# -1. Start 
+
 ## Authentication Module
    After varifying the player control will go to style module[if needed]/ player module.
    ### Methods
@@ -34,9 +34,9 @@ Toggle Module.
    <br/> Matches with database
    <br/> Go to next activity
    }
-# -
+   
+# -2. Module Interacrion
 
-2. Module Interacrion
 ## Player Module
    When player hits the ball then control will go to Toggle Module.
    And if some exceptional(restart/quit/close) event happens then control will transfer to Exceptional Event Module.
@@ -135,8 +135,7 @@ Toggle Module.
    <br/> change the direction to left side.
    }
 
-# -
-## Winner
+# -3 Winner
    From Toggle Module
     - checkWinner(){
        <br/>  if(player1.score > player2.score)
