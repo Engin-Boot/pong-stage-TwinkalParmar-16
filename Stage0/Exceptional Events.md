@@ -25,5 +25,5 @@
 ### Scenario: unauthorized user
 - Given: Game is running. 
 - When: Click reset button.
-- Then: Set the scores of bath the player to zero and restart the game.
+- Then: Set the scores of both the player to zero and restart the game.
 
