@@ -17,7 +17,7 @@
 ## Acceptance Criteria
 
 ### Scenario: varify the user
-- Given: Has clicked to signIn or signUp. 
+- Given: On signIn or signUp page. 
 - When: Enter userName and Password and clcik to submit.
 - Then: Compare the username and password with the database.
 
