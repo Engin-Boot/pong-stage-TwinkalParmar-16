@@ -17,6 +17,7 @@ Toggle Module.
 
 # Interations
 
+# -
 1. Start 
 ## Authentication Module
    After varifying the player control will go to style module[if needed]/ player module.
@@ -33,6 +34,7 @@ Toggle Module.
    <br/> Matches with database
    <br/> Go to next activity
    }
+# -
 
 2. Module Interacrion
 ## Player Module
@@ -82,13 +84,13 @@ Toggle Module.
    }
   
  
-## Customization Module
+## Styling Module
    After getting authorization it will have a option for customization to style the display.
    Both players can call the fucnctions from the customization module.
    player1.method_name or player2.method_name
    
    
-## Exceptional Events
+## Exceptional Events Module
    - close(){
     <br/>  Save the current state.
     <br/> exit()
@@ -96,16 +98,6 @@ Toggle Module.
    -reset(){
    <br/>player1.score=0
    <br/>player2.score=0
-   }
-   - declareWinner(){
-    <br/>  if(player1.score > player2.score)
-    <br/>  then
-    <br/> Display Winner is player1.name
-    <br/> if(player2.score > player1.score)
-    <br/> then
-    <br/> Display Winner is player2.name
-    <br/> else
-    <br/> Display Tie
    }
    - quit(){
    <br/> player1.reset()
@@ -118,7 +110,46 @@ Toggle Module.
    <br/> quit()
    }
 
-   
+## Toggle Module
+   ### For player1
+   - updateScore(){
+    <br /> player1.score=player1.score+1
+   }
+   - transferControl(){
+      <br/>player1.is_my_turn=false
+      <br/> player2.is_my_turn=true
+   }
+   -changeTheDirection(){
+   <br/ >change the direction to right side.
+   }
+
+### For player2
+   - updateScore(){
+    <br /> player2.score=player2.score+1
+   }
+   - transferControl(){
+      <br/>player2.is_my_turn=false
+      <br/> player1.is_my_turn=true
+   }
+   -changeTheDirection(){
+   <br/ >change the direction to left side.
+   }
+
+# -
+## Winner
+    From Toggle Modulw
+   - checkWinner(){
+    <br/>  if(player1.score > player2.score)
+    <br/>  then
+    <br/> Display Winner is player1.name
+    <br/> if(player2.score > player1.score)
+    <br/> then
+    <br/> Display Winner is player2.name
+    <br/> else
+    <br/> Tie
+   }
+# -
+
     
  
    
