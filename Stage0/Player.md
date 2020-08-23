@@ -1,6 +1,6 @@
 # Player
   Contains functionalities or activities which a player can perform.
-  This will also inherit the style module.
+  Also inherits the style module.
   
 ## Feature
 
