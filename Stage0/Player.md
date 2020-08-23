@@ -41,3 +41,8 @@
 - When: Press 'down'(player1) key or 's' key(player2).
 - Then: Move bar in downward direction.
 
+# --
+Player1 and Player2 will be two different class. 
+And inherits the Player class properties. 
+And implements all the abstract methods.(same name but different definition by player1 and player2)
+# --
