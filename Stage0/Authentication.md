@@ -5,19 +5,19 @@
 ## Feature
 
 ### Variables
-- Username
-- Password
+- username
+- password
 
 ### Methods
-- SignIn()
-- SignUp()
-- VarifyUser()
+- signIn()
+- signUp()
+- varifyUser()
 - resetPassword()
 
 ## Acceptance Criteria
 
 ### Scenario: varify the user
-- Given: Has clicked to SignIn or SignUp. 
+- Given: Has clicked to signIn or signUp. 
 - When: Enter userName and Password and clcik to submit.
 - Then: Compare the username and password with the database.
 
