@@ -119,7 +119,7 @@ Toggle Module.
       <br/>player1.is_my_turn=false
       <br/> player2.is_my_turn=true
    }
-   -changeTheDirection(){
+   - changeTheDirection(){
    <br/ >change the direction to right side.
    }
 
@@ -131,7 +131,7 @@ Toggle Module.
       <br/>player2.is_my_turn=false
       <br/> player1.is_my_turn=true
    }
-   -changeTheDirection(){
+   - changeTheDirection(){
    <br/ >change the direction to left side.
    }
 
