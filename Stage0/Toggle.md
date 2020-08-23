@@ -28,7 +28,6 @@
 - Then: Change the direction of the ball on opponent side.
 
 ### Scenario: declare winner
-
 #### -
 - Given: Game is running. 
 - When: player1.score==11 and player2.score<11.
@@ -41,4 +40,14 @@
 - Given: Game is running. 
 - When: player1.score==11 and player2.score=11.
 - Then: Tie.
+
+### Scenario: control transfer
+- Given: Player1's turn. 
+- When: Bar hits the ball.
+- Then: player1.is_my_turn=false and player2.is_my_turn=true.
+
+### Scenario: control transfer
+- Given: Player2's turn. 
+- When: Bar hits the ball.
+- Then: player2.is_my_turn=false and player1.is_my_turn=true.
 
