@@ -29,7 +29,7 @@ Think about the problem in stages. Each stage is in its individual folder.
 Open each stage after finishing the earlier one.
 If you open all at once, you will spoil the suspense!
 
-Stage 0: The Essentials
+Stage 0: The Essentials. Done
 
 Stage 1: Add Feature
 
