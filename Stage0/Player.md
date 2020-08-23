@@ -21,20 +21,23 @@
 
 ## Acceptance Criteria
 
-### Scenario: varify the user
-- Given: Has clicked to SignIn or SignUp. 
-- When: Enter userName and Password and clcik to submit.
-- Then: Compare the username and password with the database.
+### Scenario: player hits the ball
+- Given: Bar hits the ball. 
+- When: Player1/player2 turn .
+- Then: Chnage the direction of the ball : is_my_turn=!is_my_turn.
 
-### Scenario: authorized user
-- Given: Has username and password. 
-- When: When username and password matches with database.
-- Then: Allow user to play the game and navigate to the next page.
+### Scenario: player does not hit the ball
+- Given: Bar missed the ball. 
+- When: player1/player2 turn.
+- Then: update the score of opponent player : score =score+1.
 
-### Scenario: unauthorized user
-- Given: Has username and password. 
-- When: When username and password does not match with database.
-- Then: Will not allow user to play the game and 
-        dsiplay create account or reset password.
+### Scenario: up movement
+- Given: Player wants to move bar in uppward direction. 
+- When: Press 'up'(player1) key or 'w' key(player2).
+- Then: Move bar in upward direction.
 
+### Scenario: down movement
+- Given: Player wants to move bar in downward direction. 
+- When: Press 'down'(player1) key or 's' key(player2).
+- Then: Move bar in downward direction.
 
