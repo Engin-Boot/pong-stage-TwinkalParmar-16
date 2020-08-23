@@ -137,17 +137,17 @@ Toggle Module.
 
 # -
 ## Winner
-    From Toggle Modulw
-   - checkWinner(){
-    <br/>  if(player1.score > player2.score)
-    <br/>  then
-    <br/> Display Winner is player1.name
-    <br/> if(player2.score > player1.score)
-    <br/> then
-    <br/> Display Winner is player2.name
-    <br/> else
-    <br/> Tie
-   }
+   From Toggle Module
+    - checkWinner(){
+       <br/>  if(player1.score > player2.score)
+       <br/>  then
+       <br/> Display Winner is player1.name
+       <br/> if(player2.score > player1.score)
+       <br/> then
+       <br/> Display Winner is player2.name
+       <br/> else
+       <br/> Tie
+      }
 # -
 
     
