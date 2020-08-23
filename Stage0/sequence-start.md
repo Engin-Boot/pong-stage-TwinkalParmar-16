@@ -95,7 +95,7 @@ Toggle Module.
     <br/>  Save the current state.
     <br/> exit()
    }
-   -reset(){
+   - reset(){
    <br/>player1.score=0
    <br/>player2.score=0
    }
