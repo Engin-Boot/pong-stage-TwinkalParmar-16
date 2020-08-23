@@ -1,5 +1,5 @@
 # Authentication
-  Allows the player to play the game.
+  Allow the player to play the game.
   
 
 ## Feature
