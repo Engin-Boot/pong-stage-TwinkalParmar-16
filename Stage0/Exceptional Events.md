@@ -1,5 +1,6 @@
 # Exceptional Events
   Contains the events, which occurs during the execution of a program/game, that disrupts the normal flow of the game/program.
+  Also inherits the Player module.
   
 
 ## Feature
