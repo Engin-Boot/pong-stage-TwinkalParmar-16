@@ -2,12 +2,15 @@
 
 ## Startup Sequence
 
--describe-how-your-modules-interact-to-start
+Authentication Module
 
 ## Movement Initiation
 
--describe-how-modules-interact-to-make-the-ball-move
+Toggle Module
+Player Module
+Customization Module
+Exceptional Module
 
 ## One score
 
--describe-how-the-modules-interact-to-record-scores
+Toggle Module.
